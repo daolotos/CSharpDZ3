@@ -1,6 +1,6 @@
 ﻿using System;
 
-Console.WriteLine("Введите число: ");
+Console.WriteLine("Введите 2 точки:");
 int x1 = ReadInt("x1 = ");
 int y1 = ReadInt("y1 = ");
 int z1 = ReadInt("z1 = ");
