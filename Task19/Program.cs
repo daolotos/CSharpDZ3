@@ -15,12 +15,12 @@ for (int i = 0; i < 2; i ++)
         isPolyndrom = false;
         break;
     }
-    leftDigit /= 10;
-    rightDigit *= 10;
+    left = left / 10;
+    right = right * 10;
 }
 
 if (isPolyndrom)
-    Console.WriteLine("Это полиндром");
+    Console.WriteLine("О, да, это полиндром");
 else
-    Console.WriteLine("Это не полиндром");
+    Console.WriteLine("Увы, это не полиндром");
 
